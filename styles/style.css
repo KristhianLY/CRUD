@@ -43,7 +43,7 @@ body{
 }
 .link:hover {
     color: white;
-    background-color: #00438D;
+    background-color: #E5CD19;
     border: 0.5px solid #D5D9D9;
 }
 ol{
@@ -108,6 +108,7 @@ table tr th{
     height: 25px;
     color: white;
     background-color: #00438D;
+    border-radius: 5%;
 }
 /* Para el estilo de las nuevas celdas */
 td {
@@ -134,4 +135,5 @@ td {
     color: white;
     background-color: #00438D;
     border: 2px solid white;
+    border-radius: 12%;
 }
