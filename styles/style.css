@@ -2,6 +2,13 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url(/CRUD/images/backs.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 .header{
     display: flex;
@@ -101,18 +108,20 @@ form{
 .tabla{
 border-collapse: collapse; /*Esta propiedad hace que parezca mas una tabla*/
 font-family: 'Quicksand', sans-serif;
+border: 5px solid #0d26989a;
+
 }
 table tr th{
     border: 1px solid #D5D9D9;
     width: 100px;
     height: 25px;
     color: white;
-    background-color: #00438D;
+    background-color: #09008d;
     border-radius: 5%;
 }
 /* Para el estilo de las nuevas celdas */
 td {
-    border: 1px solid #D5D9D9;
+    border: 5px solid #1132ca9a;
     width: 100px;
     height: 25px;
 }
@@ -128,12 +137,18 @@ td {
     text-align: center;
     font-family: 'Quicksand', sans-serif;  
 }
+.caja select{
+    width: 12em;
+    height: 2.54em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
 .submit{
     width: 8em;
     height: 2em;
     font-family: 'Quicksand', sans-serif;
     color: white;
     background-color: #00438D;
-    border: 2px solid white;
+    border: 2px solid rgb(125, 201, 230);
     border-radius: 12%;
 }
